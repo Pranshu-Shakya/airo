@@ -14,6 +14,9 @@ from "./configs/database.js";
 import authController
 from "./routes/authController.js";
 
+import zoneController
+from "./routes/zonesController.js";
+
 import "./cron/incidentCron.js";
 
 import { connectRedis }
@@ -34,6 +37,9 @@ incidentController);
 
 app.use("/auth",
 authController);
+
+app.use("/zones",
+zoneController);
 
 connectDatabase();
 connectRedis();

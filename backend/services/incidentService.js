@@ -8,6 +8,7 @@ import { INCIDENT_TYPES } from "../configs/incidentTypes.js";
 */
 
 export async function reportIncident({ type, lat, lon, severity, userId }) {
+    console.log("Reporting incident:", { type, lat, lon, severity, userId });
 	if (!INCIDENT_TYPES[type]) throw new Error("Invalid type");
 
 	const expiryTime = INCIDENT_TYPES[type].expiry;

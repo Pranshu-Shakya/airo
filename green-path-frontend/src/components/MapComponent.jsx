@@ -176,7 +176,16 @@ function MapComponent() {
     speed ? formatDuration(distanceKm / speed) : "--";
 
   return (
-    <div className=" max-w-7xl mx-auto">
+    <div className="p-6 bg-linear-to-b from-[#FFEFEF] via-[#756AB6]/40 to-[#FFEFEF] min-h-screen">
+      <h2 className="text-2xl font-semibold mb-3 text-gray-800">
+        Jogging Route Selector
+      </h2>
+
+      {/* Instructions */}
+      <div className="mb-3 text-sm text-gray-600">
+         Click once to set <span className="font-semibold text-green-600">Start</span>,
+        click again to set <span className="font-semibold text-red-600">End</span>
+      </div>
 
       <div className="grid grid-cols-12 gap-6">
 

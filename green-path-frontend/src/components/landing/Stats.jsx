@@ -51,7 +51,7 @@ function Stats() {
               </div>
 
               {/* Content */}
-              <div className="p-6 flex-1 text-center">
+              <div className="p-6 flex-1 text-center bg-white/10">
                 <div className="flex justify-center mb-3">
                   <div className="p-2 rounded-full bg-[#E2BBE9]/40">
                     <Icon className="text-[#756AB6]" size={22} />

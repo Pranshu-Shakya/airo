@@ -40,6 +40,9 @@ function Navbar() {
 				<Link to="/about" className={navItem("/about", "About")}>
 					About
 				</Link>
+                <Link to="/docs" className={navItem("/docs", "Docs")}>
+                    Docs
+                </Link>
 				{isAuthenticated ? (
 					<Link to="/login" className={navItem("/login", "Logout")} onClick={logout}>
 						Logout

@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { Code, Server, Wind, ArrowRight } from "lucide-react";
 import PrimaryParagraph from "../PrimaryParagraph";
 import PrimaryHeading from "../PrimaryHeading";
 import PrimaryButton from "../PrimaryButton";
+import { useNavigate } from "react-router-dom";
 
 function ForDevelopers() {
+    const navigate = useNavigate();
     return (
         <section className="w-full">
             <div
@@ -26,7 +28,7 @@ function ForDevelopers() {
                         />
 
                         <div className="mt-6 flex justify-center lg:justify-start">
-                            <PrimaryButton>
+                            <PrimaryButton onClick={() => navigate("/docs")}>
                                 Explore Docs <ArrowRight />
                             </PrimaryButton>
                         </div>

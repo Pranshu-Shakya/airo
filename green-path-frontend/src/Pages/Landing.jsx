@@ -9,7 +9,7 @@ import ForDevelopers from "../components/landing/ForDevlopers";
 
 function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-linear-to-b from-[#FFEFEF] via-[#756AB6]/40 to-[#FFEFEF]">
 
       {/* Hero */}
       <section className="mb-28">

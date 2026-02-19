@@ -107,7 +107,7 @@ function MapComponent() {
   ];
 
   return (
-    <div className="p-6">
+    <div className="p-6 bg-linear-to-b from-[#FFEFEF] via-[#756AB6]/40 to-[#FFEFEF] min-h-screen">
       <h2 className="text-2xl font-semibold mb-3 text-gray-800">
         Jogging Route Selector
       </h2>

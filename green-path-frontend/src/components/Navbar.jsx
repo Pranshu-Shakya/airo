@@ -50,7 +50,7 @@ function Navbar() {
 	};
 
 	return (
-		<div className="fixed top-5 left-1/2 -translate-x-1/2 z-50">
+		<div className="fixed top-5 left-1/2 -translate-x-1/2 z-1000">
 			<nav
 				className="
           flex items-center gap-0 sm:gap-2 px-0 sm:px-3 py-1 sm:py-2

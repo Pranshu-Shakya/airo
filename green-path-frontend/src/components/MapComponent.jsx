@@ -196,7 +196,7 @@ function MapComponent() {
 				click again to set <span className="font-semibold text-red-600">End</span>
 			</div>
 
-			<div className="grid grid-rows-9 sm:grid-rows-2 lg:grid-cols-12 gap-6">
+			<div className="grid grid-rows-9 sm:grid-rows-2 lg:grid-rows-none lg:grid-cols-12 gap-6">
 				{/* ================= LEFT : MAP ================= */}
 				<div className="row-span-3 sm:row-span-1 lg:col-span-7">
 					<div className="rounded-2xl h-full shadow-xl border border-[#E2BBE9]">

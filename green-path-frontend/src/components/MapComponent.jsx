@@ -199,7 +199,7 @@ function MapComponent() {
 			<div className="grid grid-cols-12 gap-6">
 				{/* ================= LEFT : MAP ================= */}
 				<div className="col-span-12 lg:col-span-7">
-					<div className="rounded-2xl overflow-hidden h-full shadow-xl border border-[#E2BBE9]">
+					<div className="rounded-2xl h-full shadow-xl border border-[#E2BBE9]">
 						<MapContainer
 							center={[26.8467, 80.9462]}
 							zoom={13}
